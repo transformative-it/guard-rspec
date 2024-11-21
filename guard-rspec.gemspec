@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.test_files   = s.files.grep(%r{^spec/})
   s.require_path = "lib"
 
-  s.add_dependency "guard", "~> 2.1"
+  s.add_dependency "guard"
   s.add_dependency "guard-compat", "~> 1.1"
   s.add_dependency "rspec", ">= 2.99.0", "< 6.0"
 end
